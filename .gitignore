@@ -1,0 +1,21 @@
+# Core Kernel Module Outputs
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.o
+*~
+
+# Build and Dependency Artifacts
+.*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+
+# Object files generated during compilation
+*.o.d
+
+# Optional: Ignore backup files or IDE configs (adjust as needed)
+.vscode/
+.idea/
+*.swp
