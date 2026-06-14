@@ -1,7 +1,5 @@
 obj-m += my_cdev.o
 
-
-
 KDIR := $(SDKTARGETSYSROOT)/usr/src/kernel
 
 all: module testapp
